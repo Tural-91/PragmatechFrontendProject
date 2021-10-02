@@ -1,0 +1,12 @@
+
+$spacing-reset:0px;
+$spacing-x:5px;
+
+
+@for $i from 1 to 6 
+{
+  .padding-top-1x#{$i} 
+  {
+    padding-top: 10px*$i;
+  }
+}
